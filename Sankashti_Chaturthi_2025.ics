@@ -1,112 +1,150 @@
 BEGIN:VCALENDAR
 VERSION:2.0
+PRODID:-//GitHub Copilot//Hindu Calendar Events//EN
 CALSCALE:GREGORIAN
-BEGIN:VTIMEZONE
-TZID:Asia/Kolkata
-BEGIN:STANDARD
-DTSTART:19700101T000000
-TZOFFSETFROM:+0530
-TZOFFSETTO:+0530
-TZNAME:IST
-END:STANDARD
-END:VTIMEZONE
+METHOD:PUBLISH
 BEGIN:VEVENT
-SUMMARY:Lambodara Sankashti Chaturthi
-DTSTART;TZID=Asia/Kolkata:20250118T023900
-DTEND;TZID=Asia/Kolkata:20250118T110000
-DESCRIPTION:Sakat Chauth
-Magha, Krishna Chaturthi
-Begins - 04:06 AM, Jan 17
-Ends - 05:30 AM, Jan 18
+SUMMARY:Magha, Krishna Chaturthi
+DTSTART:20250116T223600Z
+DTEND:20250118T000000Z
+DTSTAMP:20250614T110548Z
+UID:20250117-magha-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Hindu calendar event: Magha\, Krishna Chaturthi\nBegins - 04:06
+  AM\, Jan 17 IST\nEnds - 05:30 AM\, Jan 18 IST
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Dwijapriya Sankashti Chaturthi
-DTSTART;TZID=Asia/Kolkata:20250217T030900
-DTEND;TZID=Asia/Kolkata:20250217T074500
-DESCRIPTION:Phalguna, Krishna Chaturthi
-Begins - 11:52 PM, Feb 15
-Ends - 02:15 AM, Feb 17
+SUMMARY:Phalguna, Krishna Chaturthi
+DTSTART:20250215T182200Z
+DTEND:20250216T204500Z
+DTSTAMP:20250614T110548Z
+UID:20250215-phalguna-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Hindu calendar event: Phalguna\, Krishna Chaturthi\nBegins - 11
+ :52 PM\, Feb 15 IST\nEnds - 02:15 AM\, Feb 17 IST
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bhalachandra Sankashti Chaturthi
-DTSTART;TZID=Asia/Kolkata:20250318T024800
-DTEND;TZID=Asia/Kolkata:20250319T033900
-DESCRIPTION:Chaitra, Krishna Chaturthi
-Begins - 07:33 PM, Mar 17
-Ends - 10:09 PM, Mar 18
+SUMMARY:Chaitra, Krishna Chaturthi
+DTSTART:20250317T140300Z
+DTEND:20250318T163900Z
+DTSTAMP:20250614T110548Z
+UID:20250317-chaitra-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Hindu calendar event: Chaitra\, Krishna Chaturthi\nBegins - 07:
+ 33 PM\, Mar 17 IST\nEnds - 10:09 PM\, Mar 18 IST
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Vikata Sankashti Chaturthi
-DTSTART;TZID=Asia/Kolkata:20250417T033000
-DTEND;TZID=Asia/Kolkata:20250417T205300
-DESCRIPTION:Vaishakha, Krishna Chaturthi
-Begins - 01:16 PM, Apr 16
-Ends - 03:23 PM, Apr 17
+SUMMARY:Vaishakha, Krishna Chaturthi
+DTSTART:20250416T074600Z
+DTEND:20250417T095300Z
+DTSTAMP:20250614T110548Z
+UID:20250416-vaishakha-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Hindu calendar event: Vaishakha\, Krishna Chaturthi\nBegins - 0
+ 1:16 PM\, Apr 16 IST\nEnds - 03:23 PM\, Apr 17 IST
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ekadanta Sankashti Chaturthi
-DTSTART;TZID=Asia/Kolkata:20250517T040900
-DTEND;TZID=Asia/Kolkata:20250517T104300
-DESCRIPTION:Jyeshtha, Krishna Chaturthi
-Begins - 04:02 AM, May 16
-Ends - 05:13 AM, May 17
+SUMMARY:Jyeshtha, Krishna Chaturthi
+DTSTART:20250515T223200Z
+DTEND:20250516T234300Z
+DTSTAMP:20250614T110548Z
+UID:20250516-jyeshtha-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Hindu calendar event: Jyeshtha\, Krishna Chaturthi\nBegins - 04
+ :02 AM\, May 16 IST\nEnds - 05:13 AM\, May 17 IST
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Krishnapingala Sankashti Chaturthi
-DTSTART;TZID=Asia/Kolkata:20250615T033700
-DTEND;TZID=Asia/Kolkata:20250615T212100
-DESCRIPTION:Ashadha, Krishna Chaturthi
-Begins - 03:46 PM, Jun 14
-Ends - 03:51 PM, Jun 15
+SUMMARY:Ashadha, Krishna Chaturthi
+DTSTART:20250614T101600Z
+DTEND:20250615T102100Z
+DTSTAMP:20250614T110548Z
+UID:20250614-ashadha-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Hindu calendar event: Ashadha\, Krishna Chaturthi\nBegins - 03:
+ 46 PM\, Jun 14 IST\nEnds - 03:51 PM\, Jun 15 IST
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Gajanana Sankashti Chaturthi
-DTSTART;TZID=Asia/Kolkata:20250715T032500
-DTEND;TZID=Asia/Kolkata:20250715T052900
-DESCRIPTION:Shravana, Krishna Chaturthi
-Begins - 01:02 AM, Jul 14
-Ends - 11:59 PM, Jul 14
+SUMMARY:Shravana, Krishna Chaturthi
+DTSTART:20250713T193200Z
+DTEND:20250714T182900Z
+DTSTAMP:20250614T110548Z
+UID:20250714-shravana-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Hindu calendar event: Shravana\, Krishna Chaturthi\nBegins - 01
+ :02 AM\, Jul 14 IST\nEnds - 11:59 PM\, Jul 14 IST
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Heramba Sankashti Chaturthi
-DTSTART;TZID=Asia/Kolkata:20250813T022900
-DTEND;TZID=Asia/Kolkata:20250813T120500
-DESCRIPTION:Bahula Chaturthi
-Bhadrapada, Krishna Chaturthi
-Begins - 08:40 AM, Aug 12
-Ends - 06:35 AM, Aug 13
+SUMMARY:Bhadrapada, Krishna Chaturthi
+DTSTART:20250812T031000Z
+DTEND:20250813T010500Z
+DTSTAMP:20250614T110548Z
+UID:20250812-bhadrapada-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Hindu calendar event: Bhadrapada\, Krishna Chaturthi\nBegins - 
+ 08:40 AM\, Aug 12 IST\nEnds - 06:35 AM\, Aug 13 IST
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Vighnaraja Sankashti Chaturthi
-DTSTART;TZID=Asia/Kolkata:20250911T013600
-DTEND;TZID=Asia/Kolkata:20250911T181500
-DESCRIPTION:Ashwina, Krishna Chaturthi
-Begins - 03:37 PM, Sep 10
-Ends - 12:45 PM, Sep 11
+SUMMARY:Ashwina, Krishna Chaturthi
+DTSTART:20250910T100700Z
+DTEND:20250911T071500Z
+DTSTAMP:20250614T110548Z
+UID:20250910-ashwina-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Hindu calendar event: Ashwina\, Krishna Chaturthi\nBegins - 03:
+ 37 PM\, Sep 10 IST\nEnds - 12:45 PM\, Sep 11 IST
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Vakratunda Sankashti Chaturthi
-DTSTART;TZID=Asia/Kolkata:20251011T014300
-DTEND;TZID=Asia/Kolkata:20251011T010800
-DESCRIPTION:Karwa Chauth
-Kartika, Krishna Chaturthi
-Begins - 10:54 PM, Oct 09
-Ends - 07:38 PM, Oct 10
+SUMMARY:Kartika, Krishna Chaturthi
+DTSTART:20251009T172400Z
+DTEND:20251010T140800Z
+DTSTAMP:20250614T110548Z
+UID:20251009-kartika-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Hindu calendar event: Kartika\, Krishna Chaturthi\nBegins - 10:
+ 54 PM\, Oct 09 IST\nEnds - 07:38 PM\, Oct 10 IST
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ganadhipa Sankashti Chaturthi
-DTSTART;TZID=Asia/Kolkata:20251109T012900
-DTEND;TZID=Asia/Kolkata:20251109T095500
-DESCRIPTION:Margashirsha, Krishna Chaturthi
-Begins - 07:32 AM, Nov 08
-Ends - 04:25 AM, Nov 09
+SUMMARY:Margashirsha, Krishna Chaturthi
+DTSTART:20251108T020200Z
+DTEND:20251108T225500Z
+DTSTAMP:20250614T110548Z
+UID:20251108-margashirsha-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Hindu calendar event: Margashirsha\, Krishna Chaturthi\nBegins 
+ - 07:32 AM\, Nov 08 IST\nEnds - 04:25 AM\, Nov 09 IST
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Akhuratha Sankashti Chaturthi
-DTSTART;TZID=Asia/Kolkata:20251208T012500
-DTEND;TZID=Asia/Kolkata:20251208T213300
-DESCRIPTION:Pausha, Krishna Chaturthi
-Begins - 06:24 PM, Dec 07
-Ends - 04:03 PM, Dec 08
+SUMMARY:Pausha, Krishna Chaturthi
+DTSTART:20251207T125400Z
+DTEND:20251208T103300Z
+DTSTAMP:20250614T110548Z
+UID:20251207-pausha-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Hindu calendar event: Pausha\, Krishna Chaturthi\nBegins - 06:2
+ 4 PM\, Dec 07 IST\nEnds - 04:03 PM\, Dec 08 IST
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
