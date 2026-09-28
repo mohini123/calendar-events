@@ -1,0 +1,242 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mohini123//Sankashti Chaturthi Netherlands//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sankashti Chaturthi 2029 (Netherlands)
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VTIMEZONE
+TZID:Europe/Amsterdam
+X-LIC-LOCATION:Europe/Amsterdam
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Magha)
+DTSTART;TZID=Europe/Amsterdam:20290103T123300
+DTEND;TZID=Europe/Amsterdam:20290104T102000
+DTSTAMP:20260928T180703Z
+UID:20290103-magha-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Magha\, Krishna Chaturthi\nChaturthi be
+ gins: Wed 03 Jan 2029\, 12:33 CET\nChaturthi ends: Thu 04 Jan 2029\, 10:20
+  CET\nSankashti day in the Netherlands: Wednesday 03 January 2029\nMoonris
+ e (Amsterdam): Wed 03 Jan 2029\, 20:33 CET\nTimes in Netherlands time (Eur
+ ope/Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Phalguna)
+DTSTART;TZID=Europe/Amsterdam:20290201T221600
+DTEND;TZID=Europe/Amsterdam:20290202T191400
+DTSTAMP:20260928T180703Z
+UID:20290202-phalguna-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Phalguna\, Krishna Chaturthi\nChaturthi
+  begins: Thu 01 Feb 2029\, 22:16 CET\nChaturthi ends: Fri 02 Feb 2029\, 19
+ :14 CET\nSankashti day in the Netherlands: Thursday 01 February 2029\nMoon
+ rise (Amsterdam): Thu 01 Feb 2029\, 21:01 CET\nNote: Chaturthi is not in e
+ ffect at moonrise on either day in the Netherlands\; the evening on which 
+ Chaturthi begins is listed. Please confirm with your local panchang.\nTime
+ s in Netherlands time (Europe/Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Adhika Chaitra)
+DTSTART;TZID=Europe/Amsterdam:20290303T071500
+DTEND;TZID=Europe/Amsterdam:20290304T035900
+DTSTAMP:20260928T180703Z
+UID:20290303-adhika-chaitra-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Adhika Chaitra\, Krishna Chaturthi\nCha
+ turthi begins: Sat 03 Mar 2029\, 07:15 CET\nChaturthi ends: Sun 04 Mar 202
+ 9\, 03:59 CET\nSankashti day in the Netherlands: Saturday 03 March 2029\nM
+ oonrise (Amsterdam): Sat 03 Mar 2029\, 22:58 CET\nTimes in Netherlands tim
+ e (Europe/Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Chaitra)
+DTSTART;TZID=Europe/Amsterdam:20290401T171500
+DTEND;TZID=Europe/Amsterdam:20290402T142000
+DTSTAMP:20260928T180703Z
+UID:20290401-chaitra-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Chaitra\, Krishna Chaturthi\nChaturthi 
+ begins: Sun 01 Apr 2029\, 17:15 CEST\nChaturthi ends: Mon 02 Apr 2029\, 14
+ :20 CEST\nSankashti day in the Netherlands: Sunday 01 April 2029\nMoonrise
+  (Amsterdam): Mon 02 Apr 2029\, 00:21 CEST\nTimes in Netherlands time (Eur
+ ope/Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Vaishakha)
+DTSTART;TZID=Europe/Amsterdam:20290501T025700
+DTEND;TZID=Europe/Amsterdam:20290502T005200
+DTSTAMP:20260928T180703Z
+UID:20290501-vaishakha-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Vaishakha\, Krishna Chaturthi\nChaturth
+ i begins: Tue 01 May 2029\, 02:57 CEST\nChaturthi ends: Wed 02 May 2029\, 
+ 00:52 CEST\nSankashti day in the Netherlands: Monday 30 April 2029\nMoonri
+ se (Amsterdam): Tue 01 May 2029\, 00:25 CEST\nNote: Chaturthi is not in ef
+ fect at moonrise on either day in the Netherlands\; the evening on which C
+ haturthi begins is listed. Please confirm with your local panchang.\nTimes
+  in Netherlands time (Europe/Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Jyeshtha)
+DTSTART;TZID=Europe/Amsterdam:20290530T135200
+DTEND;TZID=Europe/Amsterdam:20290531T125300
+DTSTAMP:20260928T180703Z
+UID:20290530-jyeshtha-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Jyeshtha\, Krishna Chaturthi\nChaturthi
+  begins: Wed 30 May 2029\, 13:52 CEST\nChaturthi ends: Thu 31 May 2029\, 1
+ 2:53 CEST\nSankashti day in the Netherlands: Wednesday 30 May 2029\nMoonri
+ se (Amsterdam): Thu 31 May 2029\, 00:32 CEST\nTimes in Netherlands time (E
+ urope/Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Ashadha)
+DTSTART;TZID=Europe/Amsterdam:20290629T021600
+DTEND;TZID=Europe/Amsterdam:20290630T023000
+DTSTAMP:20260928T180703Z
+UID:20290629-ashadha-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Ashadha\, Krishna Chaturthi\nChaturthi 
+ begins: Fri 29 Jun 2029\, 02:16 CEST\nChaturthi ends: Sat 30 Jun 2029\, 02
+ :30 CEST\nSankashti day in the Netherlands: Friday 29 June 2029\nMoonrise 
+ (Amsterdam): Fri 29 Jun 2029\, 23:41 CEST\nTimes in Netherlands time (Euro
+ pe/Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Shravana)
+DTSTART;TZID=Europe/Amsterdam:20290728T162000
+DTEND;TZID=Europe/Amsterdam:20290729T174100
+DTSTAMP:20260928T180703Z
+UID:20290728-shravana-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Shravana\, Krishna Chaturthi\nChaturthi
+  begins: Sat 28 Jul 2029\, 16:20 CEST\nChaturthi ends: Sun 29 Jul 2029\, 1
+ 7:41 CEST\nSankashti day in the Netherlands: Saturday 28 July 2029\nMoonri
+ se (Amsterdam): Sat 28 Jul 2029\, 22:18 CEST\nTimes in Netherlands time (E
+ urope/Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Bhadrapada)
+DTSTART;TZID=Europe/Amsterdam:20290827T080500
+DTEND;TZID=Europe/Amsterdam:20290828T101700
+DTSTAMP:20260928T180703Z
+UID:20290827-bhadrapada-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Bhadrapada\, Krishna Chaturthi\nChaturt
+ hi begins: Mon 27 Aug 2029\, 08:05 CEST\nChaturthi ends: Tue 28 Aug 2029\,
+  10:17 CEST\nSankashti day in the Netherlands: Monday 27 August 2029\nMoon
+ rise (Amsterdam): Mon 27 Aug 2029\, 21:10 CEST\nTimes in Netherlands time 
+ (Europe/Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Ashwina)
+DTSTART;TZID=Europe/Amsterdam:20290926T011600
+DTEND;TZID=Europe/Amsterdam:20290927T035100
+DTSTAMP:20260928T180703Z
+UID:20290926-ashwina-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Ashwina\, Krishna Chaturthi\nChaturthi 
+ begins: Wed 26 Sep 2029\, 01:16 CEST\nChaturthi ends: Thu 27 Sep 2029\, 03
+ :51 CEST\nSankashti day in the Netherlands: Wednesday 26 September 2029\nM
+ oonrise (Amsterdam): Wed 26 Sep 2029\, 20:22 CEST\nTimes in Netherlands ti
+ me (Europe/Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Kartika)
+DTSTART;TZID=Europe/Amsterdam:20291025T190500
+DTEND;TZID=Europe/Amsterdam:20291026T212300
+DTSTAMP:20260928T180703Z
+UID:20291025-kartika-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Kartika\, Krishna Chaturthi\nChaturthi 
+ begins: Thu 25 Oct 2029\, 19:05 CEST\nChaturthi ends: Fri 26 Oct 2029\, 21
+ :23 CEST\nSankashti day in the Netherlands: Thursday 25 October 2029\nMoon
+ rise (Amsterdam): Thu 25 Oct 2029\, 19:34 CEST\nNote: Chaturthi is in effe
+ ct at moonrise on both days in the Netherlands\; the first day is listed (
+ traditional rule).\nTimes in Netherlands time (Europe/Amsterdam). Source: 
+ calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Margashirsha)
+DTSTART;TZID=Europe/Amsterdam:20291124T111500
+DTEND;TZID=Europe/Amsterdam:20291125T123500
+DTSTAMP:20260928T180703Z
+UID:20291124-margashirsha-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Margashirsha\, Krishna Chaturthi\nChatu
+ rthi begins: Sat 24 Nov 2029\, 11:15 CET\nChaturthi ends: Sun 25 Nov 2029\
+ , 12:35 CET\nSankashti day in the Netherlands: Saturday 24 November 2029\n
+ Moonrise (Amsterdam): Sat 24 Nov 2029\, 19:17 CET\nTimes in Netherlands ti
+ me (Europe/Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Pausha)
+DTSTART;TZID=Europe/Amsterdam:20291224T022600
+DTEND;TZID=Europe/Amsterdam:20291225T022400
+DTSTAMP:20260928T180703Z
+UID:20291224-pausha-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Pausha\, Krishna Chaturthi\nChaturthi b
+ egins: Mon 24 Dec 2029\, 02:26 CET\nChaturthi ends: Tue 25 Dec 2029\, 02:2
+ 4 CET\nSankashti day in the Netherlands: Monday 24 December 2029\nMoonrise
+  (Amsterdam): Mon 24 Dec 2029\, 20:44 CET\nTimes in Netherlands time (Euro
+ pe/Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,220 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mohini123//Sankashti Chaturthi Netherlands//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sankashti Chaturthi 2028 (Netherlands)
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VTIMEZONE
+TZID:Europe/Amsterdam
+X-LIC-LOCATION:Europe/Amsterdam
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Magha)
+DTSTART;TZID=Europe/Amsterdam:20280114T184800
+DTEND;TZID=Europe/Amsterdam:20280115T154100
+DTSTAMP:20260928T180703Z
+UID:20280114-magha-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Magha\, Krishna Chaturthi\nChaturthi be
+ gins: Fri 14 Jan 2028\, 18:48 CET\nChaturthi ends: Sat 15 Jan 2028\, 15:41
+  CET\nSankashti day in the Netherlands: Friday 14 January 2028\nMoonrise (
+ Amsterdam): Fri 14 Jan 2028\, 20:29 CET\nTimes in Netherlands time (Europe
+ /Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Phalguna)
+DTSTART;TZID=Europe/Amsterdam:20280213T051000
+DTEND;TZID=Europe/Amsterdam:20280214T021200
+DTSTAMP:20260928T180703Z
+UID:20280213-phalguna-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Phalguna\, Krishna Chaturthi\nChaturthi
+  begins: Sun 13 Feb 2028\, 05:10 CET\nChaturthi ends: Mon 14 Feb 2028\, 02
+ :12 CET\nSankashti day in the Netherlands: Sunday 13 February 2028\nMoonri
+ se (Amsterdam): Sun 13 Feb 2028\, 22:24 CET\nTimes in Netherlands time (Eu
+ rope/Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Chaitra)
+DTSTART;TZID=Europe/Amsterdam:20280313T161000
+DTEND;TZID=Europe/Amsterdam:20280314T135300
+DTSTAMP:20260928T180703Z
+UID:20280313-chaitra-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Chaitra\, Krishna Chaturthi\nChaturthi 
+ begins: Mon 13 Mar 2028\, 16:10 CET\nChaturthi ends: Tue 14 Mar 2028\, 13:
+ 53 CET\nSankashti day in the Netherlands: Monday 13 March 2028\nMoonrise (
+ Amsterdam): Mon 13 Mar 2028\, 22:47 CET\nTimes in Netherlands time (Europe
+ /Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Vaishakha)
+DTSTART;TZID=Europe/Amsterdam:20280412T050700
+DTEND;TZID=Europe/Amsterdam:20280413T040000
+DTSTAMP:20260928T180703Z
+UID:20280412-vaishakha-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Vaishakha\, Krishna Chaturthi\nChaturth
+ i begins: Wed 12 Apr 2028\, 05:07 CEST\nChaturthi ends: Thu 13 Apr 2028\, 
+ 04:00 CEST\nSankashti day in the Netherlands: Wednesday 12 April 2028\nMoo
+ nrise (Amsterdam): Thu 13 Apr 2028\, 01:20 CEST\nTimes in Netherlands time
+  (Europe/Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Jyeshtha)
+DTSTART;TZID=Europe/Amsterdam:20280511T182200
+DTEND;TZID=Europe/Amsterdam:20280512T183800
+DTSTAMP:20260928T180703Z
+UID:20280511-jyeshtha-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Jyeshtha\, Krishna Chaturthi\nChaturthi
+  begins: Thu 11 May 2028\, 18:22 CEST\nChaturthi ends: Fri 12 May 2028\, 1
+ 8:38 CEST\nSankashti day in the Netherlands: Thursday 11 May 2028\nMoonris
+ e (Amsterdam): Fri 12 May 2028\, 00:58 CEST\nTimes in Netherlands time (Eu
+ rope/Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Ashadha)
+DTSTART;TZID=Europe/Amsterdam:20280610T090200
+DTEND;TZID=Europe/Amsterdam:20280611T103300
+DTSTAMP:20260928T180703Z
+UID:20280610-ashadha-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Ashadha\, Krishna Chaturthi\nChaturthi 
+ begins: Sat 10 Jun 2028\, 09:02 CEST\nChaturthi ends: Sun 11 Jun 2028\, 10
+ :33 CEST\nSankashti day in the Netherlands: Saturday 10 June 2028\nMoonris
+ e (Amsterdam): Sun 11 Jun 2028\, 00:27 CEST\nTimes in Netherlands time (Eu
+ rope/Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Shravana)
+DTSTART;TZID=Europe/Amsterdam:20280710T004800
+DTEND;TZID=Europe/Amsterdam:20280711T030400
+DTSTAMP:20260928T180703Z
+UID:20280710-shravana-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Shravana\, Krishna Chaturthi\nChaturthi
+  begins: Mon 10 Jul 2028\, 00:48 CEST\nChaturthi ends: Tue 11 Jul 2028\, 0
+ 3:04 CEST\nSankashti day in the Netherlands: Monday 10 July 2028\nMoonrise
+  (Amsterdam): Mon 10 Jul 2028\, 23:19 CEST\nTimes in Netherlands time (Eur
+ ope/Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Bhadrapada)
+DTSTART;TZID=Europe/Amsterdam:20280808T170000
+DTEND;TZID=Europe/Amsterdam:20280809T192600
+DTSTAMP:20260928T180703Z
+UID:20280808-bhadrapada-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Bhadrapada\, Krishna Chaturthi\nChaturt
+ hi begins: Tue 08 Aug 2028\, 17:00 CEST\nChaturthi ends: Wed 09 Aug 2028\,
+  19:26 CEST\nSankashti day in the Netherlands: Tuesday 08 August 2028\nMoo
+ nrise (Amsterdam): Tue 08 Aug 2028\, 21:52 CEST\nTimes in Netherlands time
+  (Europe/Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Ashwina)
+DTSTART;TZID=Europe/Amsterdam:20280907T085700
+DTEND;TZID=Europe/Amsterdam:20280908T110100
+DTSTAMP:20260928T180703Z
+UID:20280907-ashwina-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Ashwina\, Krishna Chaturthi\nChaturthi 
+ begins: Thu 07 Sep 2028\, 08:57 CEST\nChaturthi ends: Fri 08 Sep 2028\, 11
+ :01 CEST\nSankashti day in the Netherlands: Thursday 07 September 2028\nMo
+ onrise (Amsterdam): Thu 07 Sep 2028\, 20:42 CEST\nTimes in Netherlands tim
+ e (Europe/Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Kartika)
+DTSTART;TZID=Europe/Amsterdam:20281007T000600
+DTEND;TZID=Europe/Amsterdam:20281008T012200
+DTSTAMP:20260928T180703Z
+UID:20281007-kartika-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Kartika\, Krishna Chaturthi\nChaturthi 
+ begins: Sat 07 Oct 2028\, 00:06 CEST\nChaturthi ends: Sun 08 Oct 2028\, 01
+ :22 CEST\nSankashti day in the Netherlands: Saturday 07 October 2028\nMoon
+ rise (Amsterdam): Sat 07 Oct 2028\, 20:03 CEST\nTimes in Netherlands time 
+ (Europe/Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Margashirsha)
+DTSTART;TZID=Europe/Amsterdam:20281105T130300
+DTEND;TZID=Europe/Amsterdam:20281106T131400
+DTSTAMP:20260928T180703Z
+UID:20281105-margashirsha-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Margashirsha\, Krishna Chaturthi\nChatu
+ rthi begins: Sun 05 Nov 2028\, 13:03 CET\nChaturthi ends: Mon 06 Nov 2028\
+ , 13:14 CET\nSankashti day in the Netherlands: Sunday 05 November 2028\nMo
+ onrise (Amsterdam): Sun 05 Nov 2028\, 18:36 CET\nTimes in Netherlands time
+  (Europe/Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Pausha)
+DTSTART;TZID=Europe/Amsterdam:20281205T013400
+DTEND;TZID=Europe/Amsterdam:20281206T003000
+DTSTAMP:20260928T180703Z
+UID:20281205-pausha-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Pausha\, Krishna Chaturthi\nChaturthi b
+ egins: Tue 05 Dec 2028\, 01:34 CET\nChaturthi ends: Wed 06 Dec 2028\, 00:3
+ 0 CET\nSankashti day in the Netherlands: Tuesday 05 December 2028\nMoonris
+ e (Amsterdam): Tue 05 Dec 2028\, 20:03 CET\nTimes in Netherlands time (Eur
+ ope/Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

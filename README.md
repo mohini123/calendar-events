@@ -13,20 +13,52 @@ A simple web application for publishing and subscribing to calendar events. With
 - Browse the homepage to see a list of upcoming events.
 - Click on any event for more details.
 
+## Sankashti Chaturthi calendar (Netherlands time), 2025–2030
+
+All events are in **Netherlands time (Europe/Amsterdam)**. Summer time (CEST) and winter time (CET) are handled automatically. Each event covers the Chaturthi tithi from start to end. The description also gives:
+
+- the **Sankashti day in the Netherlands**, which is the day Chaturthi is in effect at moonrise
+- the **moonrise time in Amsterdam**, when the fast is traditionally broken
+
+| File | Contents |
+|---|---|
+| [`Sankashti_Chaturthi_Netherlands.ics`](Sankashti_Chaturthi_Netherlands.ics) | **All years 2025–2030 in one calendar (recommended)** |
+| `Sankashti_Chaturthi_2025.ics` … `Sankashti_Chaturthi_2030.ics` | One calendar per year |
+
+**Where the data comes from:** 2025–2027 use the tithi times from [Drik Panchang](https://www.drikpanchang.com/vrats/sankashti-chaturthi-dates.html). 2028–2030 were calculated astronomically, since the Chaturthi tithi depends only on the Sun–Moon angle. The same method reproduces the Drik Panchang times for 2025–2027 to within a few minutes. A few dates have no single clear Sankashti day in the Netherlands; those events include a note and are worth checking against a local panchang.
+
 ## How to Subscribe to This Calendar
 
-You can subscribe to the calendar using your favorite calendar application. Here’s how:
+### 1. The subscription link
 
-### 1. Find the Calendar Subscription Link
+```
+https://mohini123.github.io/calendar-events/Sankashti_Chaturthi_Netherlands.ics
+```
 
-- Look for a link or button labeled **Subscribe**, **iCal**, or **Export .ics** on the website.  
-  (If you’re the developer, ensure the calendar feed is available at a public URL, e.g., `https://mohini123.github.io/calendar-events/Sankashti_Chaturthi_2025.ics`.)
+For iPhone/iPad, the same link starting with `webcal://` opens the Subscribe dialog directly:
 
-### 2. Copy the Calendar URL
+```
+webcal://mohini123.github.io/calendar-events/Sankashti_Chaturthi_Netherlands.ics
+```
 
-- Right-click the subscription link and choose **Copy link address**.
+(GitHub Pages must be enabled for this repository: **Settings → Pages → Deploy from branch → `main` / root**.)
 
-### 3. Add to Your Calendar App
+### 2. Add it to your phone
+
+#### iPhone / iPad
+
+1. Open **Settings → Apps → Calendar → Calendar Accounts → Add Account → Other → Add Subscribed Calendar**. On older iOS versions this is **Settings → Calendar → Accounts**.
+2. Paste the link above and tap **Next**, then **Save**.
+
+#### Android (Google Calendar)
+
+The Google Calendar phone app can't add a calendar by URL, so do it once on the web:
+
+1. On a computer, open [Google Calendar](https://calendar.google.com/). Next to **Other calendars**, click **+** → **From URL**.
+2. Paste the link and click **Add calendar**.
+3. On your phone, open Google Calendar → **Settings** → the new calendar, and make sure **Sync** is on.
+
+### 3. Other calendar apps
 
 #### Google Calendar
 

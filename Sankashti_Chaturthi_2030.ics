@@ -1,0 +1,224 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mohini123//Sankashti Chaturthi Netherlands//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Sankashti Chaturthi 2030 (Netherlands)
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VTIMEZONE
+TZID:Europe/Amsterdam
+X-LIC-LOCATION:Europe/Amsterdam
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Magha)
+DTSTART;TZID=Europe/Amsterdam:20300122T145900
+DTEND;TZID=Europe/Amsterdam:20300123T133600
+DTSTAMP:20260928T180703Z
+UID:20300122-magha-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Magha\, Krishna Chaturthi\nChaturthi be
+ gins: Tue 22 Jan 2030\, 14:59 CET\nChaturthi ends: Wed 23 Jan 2030\, 13:36
+  CET\nSankashti day in the Netherlands: Tuesday 22 January 2030\nMoonrise 
+ (Amsterdam): Tue 22 Jan 2030\, 21:06 CET\nTimes in Netherlands time (Europ
+ e/Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Phalguna)
+DTSTART;TZID=Europe/Amsterdam:20300221T010900
+DTEND;TZID=Europe/Amsterdam:20300221T224500
+DTSTAMP:20260928T180703Z
+UID:20300221-phalguna-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Phalguna\, Krishna Chaturthi\nChaturthi
+  begins: Thu 21 Feb 2030\, 01:09 CET\nChaturthi ends: Thu 21 Feb 2030\, 22
+ :45 CET\nSankashti day in the Netherlands: Wednesday 20 February 2030\nMoo
+ nrise (Amsterdam): Wed 20 Feb 2030\, 21:29 CET\nNote: Chaturthi is not in 
+ effect at moonrise on either day in the Netherlands\; the evening on which
+  Chaturthi begins is listed. Please confirm with your local panchang.\nTim
+ es in Netherlands time (Europe/Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Chaitra)
+DTSTART;TZID=Europe/Amsterdam:20300322T094600
+DTEND;TZID=Europe/Amsterdam:20300323T064700
+DTSTAMP:20260928T180703Z
+UID:20300322-chaitra-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Chaitra\, Krishna Chaturthi\nChaturthi 
+ begins: Fri 22 Mar 2030\, 09:46 CET\nChaturthi ends: Sat 23 Mar 2030\, 06:
+ 47 CET\nSankashti day in the Netherlands: Friday 22 March 2030\nMoonrise (
+ Amsterdam): Fri 22 Mar 2030\, 23:19 CET\nTimes in Netherlands time (Europe
+ /Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Vaishakha)
+DTSTART;TZID=Europe/Amsterdam:20300420T184000
+DTEND;TZID=Europe/Amsterdam:20300421T153400
+DTSTAMP:20260928T180703Z
+UID:20300420-vaishakha-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Vaishakha\, Krishna Chaturthi\nChaturth
+ i begins: Sat 20 Apr 2030\, 18:40 CEST\nChaturthi ends: Sun 21 Apr 2030\, 
+ 15:34 CEST\nSankashti day in the Netherlands: Saturday 20 April 2030\nMoon
+ rise (Amsterdam): Sun 21 Apr 2030\, 00:30 CEST\nTimes in Netherlands time 
+ (Europe/Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Jyeshtha)
+DTSTART;TZID=Europe/Amsterdam:20300520T023600
+DTEND;TZID=Europe/Amsterdam:20300520T234600
+DTSTAMP:20260928T180703Z
+UID:20300520-jyeshtha-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Jyeshtha\, Krishna Chaturthi\nChaturthi
+  begins: Mon 20 May 2030\, 02:36 CEST\nChaturthi ends: Mon 20 May 2030\, 2
+ 3:46 CEST\nSankashti day in the Netherlands: Sunday 19 May 2030\nMoonrise 
+ (Amsterdam): Mon 20 May 2030\, 00:11 CEST\nNote: Chaturthi is not in effec
+ t at moonrise on either day in the Netherlands\; the evening on which Chat
+ urthi begins is listed. Please confirm with your local panchang.\nTimes in
+  Netherlands time (Europe/Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Ashadha)
+DTSTART;TZID=Europe/Amsterdam:20300618T111200
+DTEND;TZID=Europe/Amsterdam:20300619T090200
+DTSTAMP:20260928T180703Z
+UID:20300618-ashadha-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Ashadha\, Krishna Chaturthi\nChaturthi 
+ begins: Tue 18 Jun 2030\, 11:12 CEST\nChaturthi ends: Wed 19 Jun 2030\, 09
+ :02 CEST\nSankashti day in the Netherlands: Tuesday 18 June 2030\nMoonrise
+  (Amsterdam): Tue 18 Jun 2030\, 23:52 CEST\nTimes in Netherlands time (Eur
+ ope/Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Shravana)
+DTSTART;TZID=Europe/Amsterdam:20300717T210800
+DTEND;TZID=Europe/Amsterdam:20300718T200000
+DTSTAMP:20260928T180703Z
+UID:20300718-shravana-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Shravana\, Krishna Chaturthi\nChaturthi
+  begins: Wed 17 Jul 2030\, 21:08 CEST\nChaturthi ends: Thu 18 Jul 2030\, 2
+ 0:00 CEST\nSankashti day in the Netherlands: Wednesday 17 July 2030\nMoonr
+ ise (Amsterdam): Wed 17 Jul 2030\, 22:39 CEST\nTimes in Netherlands time (
+ Europe/Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Bhadrapada)
+DTSTART;TZID=Europe/Amsterdam:20300816T091200
+DTEND;TZID=Europe/Amsterdam:20300817T092200
+DTSTAMP:20260928T180703Z
+UID:20300816-bhadrapada-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Bhadrapada\, Krishna Chaturthi\nChaturt
+ hi begins: Fri 16 Aug 2030\, 09:12 CEST\nChaturthi ends: Sat 17 Aug 2030\,
+  09:22 CEST\nSankashti day in the Netherlands: Friday 16 August 2030\nMoon
+ rise (Amsterdam): Fri 16 Aug 2030\, 21:40 CEST\nTimes in Netherlands time 
+ (Europe/Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Ashwina)
+DTSTART;TZID=Europe/Amsterdam:20300915T000200
+DTEND;TZID=Europe/Amsterdam:20300916T013200
+DTSTAMP:20260928T180703Z
+UID:20300915-ashwina-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Ashwina\, Krishna Chaturthi\nChaturthi 
+ begins: Sun 15 Sep 2030\, 00:02 CEST\nChaturthi ends: Mon 16 Sep 2030\, 01
+ :32 CEST\nSankashti day in the Netherlands: Sunday 15 September 2030\nMoon
+ rise (Amsterdam): Sun 15 Sep 2030\, 20:51 CEST\nTimes in Netherlands time 
+ (Europe/Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Kartika)
+DTSTART;TZID=Europe/Amsterdam:20301014T173900
+DTEND;TZID=Europe/Amsterdam:20301015T200800
+DTSTAMP:20260928T180703Z
+UID:20301014-kartika-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Kartika\, Krishna Chaturthi\nChaturthi 
+ begins: Mon 14 Oct 2030\, 17:39 CEST\nChaturthi ends: Tue 15 Oct 2030\, 20
+ :08 CEST\nSankashti day in the Netherlands: Monday 14 October 2030\nMoonri
+ se (Amsterdam): Mon 14 Oct 2030\, 19:54 CEST\nTimes in Netherlands time (E
+ urope/Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Margashirsha)
+DTSTART;TZID=Europe/Amsterdam:20301113T120400
+DTEND;TZID=Europe/Amsterdam:20301114T144600
+DTSTAMP:20260928T180703Z
+UID:20301113-margashirsha-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Margashirsha\, Krishna Chaturthi\nChatu
+ rthi begins: Wed 13 Nov 2030\, 12:04 CET\nChaturthi ends: Thu 14 Nov 2030\
+ , 14:46 CET\nSankashti day in the Netherlands: Wednesday 13 November 2030\
+ nMoonrise (Amsterdam): Wed 13 Nov 2030\, 19:10 CET\nTimes in Netherlands t
+ ime (Europe/Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sankashti Chaturthi (Pausha)
+DTSTART;TZID=Europe/Amsterdam:20301213T072600
+DTEND;TZID=Europe/Amsterdam:20301214T093400
+DTSTAMP:20260928T180703Z
+UID:20301213-pausha-krishna-chaturthi-mohini123@github.com
+DESCRIPTION:Sankashti Chaturthi – Pausha\, Krishna Chaturthi\nChaturthi b
+ egins: Fri 13 Dec 2030\, 07:26 CET\nChaturthi ends: Sat 14 Dec 2030\, 09:3
+ 4 CET\nSankashti day in the Netherlands: Friday 13 December 2030\nMoonrise
+  (Amsterdam): Fri 13 Dec 2030\, 20:08 CET\nTimes in Netherlands time (Euro
+ pe/Amsterdam). Source: calculated.
+LOCATION:Netherlands
+STATUS:CONFIRMED
+SEQUENCE:0
+TRANSP:TRANSPARENT
+END:VEVENT
+END:VCALENDAR

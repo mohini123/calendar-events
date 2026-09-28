@@ -1,150 +1,220 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//GitHub Copilot//Hindu Calendar Events//EN
+PRODID:-//mohini123//Sankashti Chaturthi Netherlands//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
+X-WR-CALNAME:Sankashti Chaturthi 2025 (Netherlands)
+X-WR-TIMEZONE:Europe/Amsterdam
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VTIMEZONE
+TZID:Europe/Amsterdam
+X-LIC-LOCATION:Europe/Amsterdam
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
-SUMMARY:Magha, Krishna Chaturthi
-DTSTART:20250116T223600Z
-DTEND:20250118T000000Z
-DTSTAMP:20250614T110548Z
+SUMMARY:Sankashti Chaturthi (Magha)
+DTSTART;TZID=Europe/Amsterdam:20250116T233600
+DTEND;TZID=Europe/Amsterdam:20250118T010000
+DTSTAMP:20260928T180703Z
 UID:20250117-magha-krishna-chaturthi-mohini123@github.com
-DESCRIPTION:Hindu calendar event: Magha\, Krishna Chaturthi\nBegins - 04:06
-  AM\, Jan 17 IST\nEnds - 05:30 AM\, Jan 18 IST
+DESCRIPTION:Sankashti Chaturthi – Magha\, Krishna Chaturthi\nChaturthi be
+ gins: Thu 16 Jan 2025\, 23:36 CET\nChaturthi ends: Sat 18 Jan 2025\, 01:00
+  CET\nSankashti day in the Netherlands: Friday 17 January 2025\nMoonrise (
+ Amsterdam): Fri 17 Jan 2025\, 21:16 CET\nTimes in Netherlands time (Europe
+ /Amsterdam). Source: Drik Panchang.
+LOCATION:Netherlands
 STATUS:CONFIRMED
-SEQUENCE:0
-TRANSP:OPAQUE
+SEQUENCE:1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Phalguna, Krishna Chaturthi
-DTSTART:20250215T182200Z
-DTEND:20250216T204500Z
-DTSTAMP:20250614T110548Z
+SUMMARY:Sankashti Chaturthi (Phalguna)
+DTSTART;TZID=Europe/Amsterdam:20250215T192200
+DTEND;TZID=Europe/Amsterdam:20250216T214500
+DTSTAMP:20260928T180703Z
 UID:20250215-phalguna-krishna-chaturthi-mohini123@github.com
-DESCRIPTION:Hindu calendar event: Phalguna\, Krishna Chaturthi\nBegins - 11
- :52 PM\, Feb 15 IST\nEnds - 02:15 AM\, Feb 17 IST
+DESCRIPTION:Sankashti Chaturthi – Phalguna\, Krishna Chaturthi\nChaturthi
+  begins: Sat 15 Feb 2025\, 19:22 CET\nChaturthi ends: Sun 16 Feb 2025\, 21
+ :45 CET\nSankashti day in the Netherlands: Saturday 15 February 2025\nMoon
+ rise (Amsterdam): Sat 15 Feb 2025\, 21:23 CET\nTimes in Netherlands time (
+ Europe/Amsterdam). Source: Drik Panchang.
+LOCATION:Netherlands
 STATUS:CONFIRMED
-SEQUENCE:0
-TRANSP:OPAQUE
+SEQUENCE:1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Chaitra, Krishna Chaturthi
-DTSTART:20250317T140300Z
-DTEND:20250318T163900Z
-DTSTAMP:20250614T110548Z
+SUMMARY:Sankashti Chaturthi (Chaitra)
+DTSTART;TZID=Europe/Amsterdam:20250317T150300
+DTEND;TZID=Europe/Amsterdam:20250318T173900
+DTSTAMP:20260928T180703Z
 UID:20250317-chaitra-krishna-chaturthi-mohini123@github.com
-DESCRIPTION:Hindu calendar event: Chaitra\, Krishna Chaturthi\nBegins - 07:
- 33 PM\, Mar 17 IST\nEnds - 10:09 PM\, Mar 18 IST
+DESCRIPTION:Sankashti Chaturthi – Chaitra\, Krishna Chaturthi\nChaturthi 
+ begins: Mon 17 Mar 2025\, 15:03 CET\nChaturthi ends: Tue 18 Mar 2025\, 17:
+ 39 CET\nSankashti day in the Netherlands: Monday 17 March 2025\nMoonrise (
+ Amsterdam): Mon 17 Mar 2025\, 22:46 CET\nTimes in Netherlands time (Europe
+ /Amsterdam). Source: Drik Panchang.
+LOCATION:Netherlands
 STATUS:CONFIRMED
-SEQUENCE:0
-TRANSP:OPAQUE
+SEQUENCE:1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Vaishakha, Krishna Chaturthi
-DTSTART:20250416T074600Z
-DTEND:20250417T095300Z
-DTSTAMP:20250614T110548Z
+SUMMARY:Sankashti Chaturthi (Vaishakha)
+DTSTART;TZID=Europe/Amsterdam:20250416T094600
+DTEND;TZID=Europe/Amsterdam:20250417T115300
+DTSTAMP:20260928T180703Z
 UID:20250416-vaishakha-krishna-chaturthi-mohini123@github.com
-DESCRIPTION:Hindu calendar event: Vaishakha\, Krishna Chaturthi\nBegins - 0
- 1:16 PM\, Apr 16 IST\nEnds - 03:23 PM\, Apr 17 IST
+DESCRIPTION:Sankashti Chaturthi – Vaishakha\, Krishna Chaturthi\nChaturth
+ i begins: Wed 16 Apr 2025\, 09:46 CEST\nChaturthi ends: Thu 17 Apr 2025\, 
+ 11:53 CEST\nSankashti day in the Netherlands: Wednesday 16 April 2025\nMoo
+ nrise (Amsterdam): Thu 17 Apr 2025\, 01:16 CEST\nTimes in Netherlands time
+  (Europe/Amsterdam). Source: Drik Panchang.
+LOCATION:Netherlands
 STATUS:CONFIRMED
-SEQUENCE:0
-TRANSP:OPAQUE
+SEQUENCE:1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Jyeshtha, Krishna Chaturthi
-DTSTART:20250515T223200Z
-DTEND:20250516T234300Z
-DTSTAMP:20250614T110548Z
+SUMMARY:Sankashti Chaturthi (Jyeshtha)
+DTSTART;TZID=Europe/Amsterdam:20250516T003200
+DTEND;TZID=Europe/Amsterdam:20250517T014300
+DTSTAMP:20260928T180703Z
 UID:20250516-jyeshtha-krishna-chaturthi-mohini123@github.com
-DESCRIPTION:Hindu calendar event: Jyeshtha\, Krishna Chaturthi\nBegins - 04
- :02 AM\, May 16 IST\nEnds - 05:13 AM\, May 17 IST
+DESCRIPTION:Sankashti Chaturthi – Jyeshtha\, Krishna Chaturthi\nChaturthi
+  begins: Fri 16 May 2025\, 00:32 CEST\nChaturthi ends: Sat 17 May 2025\, 0
+ 1:43 CEST\nSankashti day in the Netherlands: Thursday 15 May 2025\nMoonris
+ e (Amsterdam): Fri 16 May 2025\, 01:11 CEST\nTimes in Netherlands time (Eu
+ rope/Amsterdam). Source: Drik Panchang.
+LOCATION:Netherlands
 STATUS:CONFIRMED
-SEQUENCE:0
-TRANSP:OPAQUE
+SEQUENCE:1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ashadha, Krishna Chaturthi
-DTSTART:20250614T101600Z
-DTEND:20250615T102100Z
-DTSTAMP:20250614T110548Z
+SUMMARY:Sankashti Chaturthi (Ashadha)
+DTSTART;TZID=Europe/Amsterdam:20250614T121600
+DTEND;TZID=Europe/Amsterdam:20250615T122100
+DTSTAMP:20260928T180703Z
 UID:20250614-ashadha-krishna-chaturthi-mohini123@github.com
-DESCRIPTION:Hindu calendar event: Ashadha\, Krishna Chaturthi\nBegins - 03:
- 46 PM\, Jun 14 IST\nEnds - 03:51 PM\, Jun 15 IST
+DESCRIPTION:Sankashti Chaturthi – Ashadha\, Krishna Chaturthi\nChaturthi 
+ begins: Sat 14 Jun 2025\, 12:16 CEST\nChaturthi ends: Sun 15 Jun 2025\, 12
+ :21 CEST\nSankashti day in the Netherlands: Saturday 14 June 2025\nMoonris
+ e (Amsterdam): Sun 15 Jun 2025\, 00:54 CEST\nTimes in Netherlands time (Eu
+ rope/Amsterdam). Source: Drik Panchang.
+LOCATION:Netherlands
 STATUS:CONFIRMED
-SEQUENCE:0
-TRANSP:OPAQUE
+SEQUENCE:1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Shravana, Krishna Chaturthi
-DTSTART:20250713T193200Z
-DTEND:20250714T182900Z
-DTSTAMP:20250614T110548Z
+SUMMARY:Sankashti Chaturthi (Shravana)
+DTSTART;TZID=Europe/Amsterdam:20250713T213200
+DTEND;TZID=Europe/Amsterdam:20250714T202900
+DTSTAMP:20260928T180703Z
 UID:20250714-shravana-krishna-chaturthi-mohini123@github.com
-DESCRIPTION:Hindu calendar event: Shravana\, Krishna Chaturthi\nBegins - 01
- :02 AM\, Jul 14 IST\nEnds - 11:59 PM\, Jul 14 IST
+DESCRIPTION:Sankashti Chaturthi – Shravana\, Krishna Chaturthi\nChaturthi
+  begins: Sun 13 Jul 2025\, 21:32 CEST\nChaturthi ends: Mon 14 Jul 2025\, 2
+ 0:29 CEST\nSankashti day in the Netherlands: Sunday 13 July 2025\nMoonrise
+  (Amsterdam): Sun 13 Jul 2025\, 23:32 CEST\nTimes in Netherlands time (Eur
+ ope/Amsterdam). Source: Drik Panchang.
+LOCATION:Netherlands
 STATUS:CONFIRMED
-SEQUENCE:0
-TRANSP:OPAQUE
+SEQUENCE:1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Bhadrapada, Krishna Chaturthi
-DTSTART:20250812T031000Z
-DTEND:20250813T010500Z
-DTSTAMP:20250614T110548Z
+SUMMARY:Sankashti Chaturthi (Bhadrapada)
+DTSTART;TZID=Europe/Amsterdam:20250812T051000
+DTEND;TZID=Europe/Amsterdam:20250813T030500
+DTSTAMP:20260928T180703Z
 UID:20250812-bhadrapada-krishna-chaturthi-mohini123@github.com
-DESCRIPTION:Hindu calendar event: Bhadrapada\, Krishna Chaturthi\nBegins - 
- 08:40 AM\, Aug 12 IST\nEnds - 06:35 AM\, Aug 13 IST
+DESCRIPTION:Sankashti Chaturthi – Bhadrapada\, Krishna Chaturthi\nChaturt
+ hi begins: Tue 12 Aug 2025\, 05:10 CEST\nChaturthi ends: Wed 13 Aug 2025\,
+  03:05 CEST\nSankashti day in the Netherlands: Tuesday 12 August 2025\nMoo
+ nrise (Amsterdam): Tue 12 Aug 2025\, 22:14 CEST\nTimes in Netherlands time
+  (Europe/Amsterdam). Source: Drik Panchang.
+LOCATION:Netherlands
 STATUS:CONFIRMED
-SEQUENCE:0
-TRANSP:OPAQUE
+SEQUENCE:1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Ashwina, Krishna Chaturthi
-DTSTART:20250910T100700Z
-DTEND:20250911T071500Z
-DTSTAMP:20250614T110548Z
+SUMMARY:Sankashti Chaturthi (Ashwina)
+DTSTART;TZID=Europe/Amsterdam:20250910T120700
+DTEND;TZID=Europe/Amsterdam:20250911T091500
+DTSTAMP:20260928T180703Z
 UID:20250910-ashwina-krishna-chaturthi-mohini123@github.com
-DESCRIPTION:Hindu calendar event: Ashwina\, Krishna Chaturthi\nBegins - 03:
- 37 PM\, Sep 10 IST\nEnds - 12:45 PM\, Sep 11 IST
+DESCRIPTION:Sankashti Chaturthi – Ashwina\, Krishna Chaturthi\nChaturthi 
+ begins: Wed 10 Sep 2025\, 12:07 CEST\nChaturthi ends: Thu 11 Sep 2025\, 09
+ :15 CEST\nSankashti day in the Netherlands: Wednesday 10 September 2025\nM
+ oonrise (Amsterdam): Wed 10 Sep 2025\, 20:46 CEST\nTimes in Netherlands ti
+ me (Europe/Amsterdam). Source: Drik Panchang.
+LOCATION:Netherlands
 STATUS:CONFIRMED
-SEQUENCE:0
-TRANSP:OPAQUE
+SEQUENCE:1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Kartika, Krishna Chaturthi
-DTSTART:20251009T172400Z
-DTEND:20251010T140800Z
-DTSTAMP:20250614T110548Z
+SUMMARY:Sankashti Chaturthi (Kartika)
+DTSTART;TZID=Europe/Amsterdam:20251009T192400
+DTEND;TZID=Europe/Amsterdam:20251010T160800
+DTSTAMP:20260928T180703Z
 UID:20251009-kartika-krishna-chaturthi-mohini123@github.com
-DESCRIPTION:Hindu calendar event: Kartika\, Krishna Chaturthi\nBegins - 10:
- 54 PM\, Oct 09 IST\nEnds - 07:38 PM\, Oct 10 IST
+DESCRIPTION:Sankashti Chaturthi – Kartika\, Krishna Chaturthi\nChaturthi 
+ begins: Thu 09 Oct 2025\, 19:24 CEST\nChaturthi ends: Fri 10 Oct 2025\, 16
+ :08 CEST\nSankashti day in the Netherlands: Thursday 09 October 2025\nMoon
+ rise (Amsterdam): Thu 09 Oct 2025\, 19:29 CEST\nTimes in Netherlands time 
+ (Europe/Amsterdam). Source: Drik Panchang.
+LOCATION:Netherlands
 STATUS:CONFIRMED
-SEQUENCE:0
-TRANSP:OPAQUE
+SEQUENCE:1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Margashirsha, Krishna Chaturthi
-DTSTART:20251108T020200Z
-DTEND:20251108T225500Z
-DTSTAMP:20250614T110548Z
+SUMMARY:Sankashti Chaturthi (Margashirsha)
+DTSTART;TZID=Europe/Amsterdam:20251108T030200
+DTEND;TZID=Europe/Amsterdam:20251108T235500
+DTSTAMP:20260928T180703Z
 UID:20251108-margashirsha-krishna-chaturthi-mohini123@github.com
-DESCRIPTION:Hindu calendar event: Margashirsha\, Krishna Chaturthi\nBegins 
- - 07:32 AM\, Nov 08 IST\nEnds - 04:25 AM\, Nov 09 IST
+DESCRIPTION:Sankashti Chaturthi – Margashirsha\, Krishna Chaturthi\nChatu
+ rthi begins: Sat 08 Nov 2025\, 03:02 CET\nChaturthi ends: Sat 08 Nov 2025\
+ , 23:55 CET\nSankashti day in the Netherlands: Saturday 08 November 2025\n
+ Moonrise (Amsterdam): Sat 08 Nov 2025\, 18:39 CET\nTimes in Netherlands ti
+ me (Europe/Amsterdam). Source: Drik Panchang.
+LOCATION:Netherlands
 STATUS:CONFIRMED
-SEQUENCE:0
-TRANSP:OPAQUE
+SEQUENCE:1
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Pausha, Krishna Chaturthi
-DTSTART:20251207T125400Z
-DTEND:20251208T103300Z
-DTSTAMP:20250614T110548Z
+SUMMARY:Sankashti Chaturthi (Pausha)
+DTSTART;TZID=Europe/Amsterdam:20251207T135400
+DTEND;TZID=Europe/Amsterdam:20251208T113300
+DTSTAMP:20260928T180703Z
 UID:20251207-pausha-krishna-chaturthi-mohini123@github.com
-DESCRIPTION:Hindu calendar event: Pausha\, Krishna Chaturthi\nBegins - 06:2
- 4 PM\, Dec 07 IST\nEnds - 04:03 PM\, Dec 08 IST
+DESCRIPTION:Sankashti Chaturthi – Pausha\, Krishna Chaturthi\nChaturthi b
+ egins: Sun 07 Dec 2025\, 13:54 CET\nChaturthi ends: Mon 08 Dec 2025\, 11:3
+ 3 CET\nSankashti day in the Netherlands: Sunday 07 December 2025\nMoonrise
+  (Amsterdam): Sun 07 Dec 2025\, 18:56 CET\nTimes in Netherlands time (Euro
+ pe/Amsterdam). Source: Drik Panchang.
+LOCATION:Netherlands
 STATUS:CONFIRMED
-SEQUENCE:0
-TRANSP:OPAQUE
+SEQUENCE:1
+TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
