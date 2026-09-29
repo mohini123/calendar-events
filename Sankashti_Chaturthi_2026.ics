@@ -7,10 +7,10 @@ BEGIN:VEVENT
 SUMMARY:Magha, Krishna Chaturthi
 DTSTART;VALUE=DATE:20260106
 DTEND;VALUE=DATE:20260107
-DTSTAMP:20260929T091116Z
+DTSTAMP:20260929T092048Z
 UID:20260106-magha-krishna-chaturthi-mohini123@github.com
 DESCRIPTION:Sankashti Chaturthi: Magha\, Krishna Chaturthi\nMoonrise in Ams
- terdam: 20:49\, Jan 06\nChaturthi tithi: 03:32\, Jan 06 to 02:23\, Jan 07 
+ terdam: 20:55\, Jan 06\nChaturthi tithi: 03:32\, Jan 06 to 02:23\, Jan 07 
  (Europe/Amsterdam)
 STATUS:CONFIRMED
 SEQUENCE:1
@@ -20,10 +20,10 @@ BEGIN:VEVENT
 SUMMARY:Phalguna, Krishna Chaturthi
 DTSTART;VALUE=DATE:20260204
 DTEND;VALUE=DATE:20260205
-DTSTAMP:20260929T091116Z
+DTSTAMP:20260929T092048Z
 UID:20260205-phalguna-krishna-chaturthi-mohini123@github.com
 DESCRIPTION:Sankashti Chaturthi: Phalguna\, Krishna Chaturthi\nMoonrise in 
- Amsterdam: 21:03\, Feb 04\nChaturthi tithi: 19:40\, Feb 04 to 19:53\, Feb 
+ Amsterdam: 21:09\, Feb 04\nChaturthi tithi: 19:40\, Feb 04 to 19:53\, Feb 
  05 (Europe/Amsterdam)
 STATUS:CONFIRMED
 SEQUENCE:1
@@ -33,10 +33,10 @@ BEGIN:VEVENT
 SUMMARY:Chaitra, Krishna Chaturthi
 DTSTART;VALUE=DATE:20260306
 DTEND;VALUE=DATE:20260307
-DTSTAMP:20260929T091116Z
+DTSTAMP:20260929T092048Z
 UID:20260306-chaitra-krishna-chaturthi-mohini123@github.com
 DESCRIPTION:Sankashti Chaturthi: Chaitra\, Krishna Chaturthi\nMoonrise in A
- msterdam: 22:30\, Mar 06\nChaturthi tithi: 13:24\, Mar 06 to 14:48\, Mar 0
+ msterdam: 22:36\, Mar 06\nChaturthi tithi: 13:24\, Mar 06 to 14:48\, Mar 0
  7 (Europe/Amsterdam)
 STATUS:CONFIRMED
 SEQUENCE:1
@@ -44,51 +44,51 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Vaishakha, Krishna Chaturthi
-DTSTART;VALUE=DATE:20260406
-DTEND;VALUE=DATE:20260407
-DTSTAMP:20260929T091116Z
+DTSTART;VALUE=DATE:20260405
+DTEND;VALUE=DATE:20260406
+DTSTAMP:20260929T092048Z
 UID:20260405-vaishakha-krishna-chaturthi-mohini123@github.com
 DESCRIPTION:Sankashti Chaturthi: Vaishakha\, Krishna Chaturthi\nMoonrise in
-  Amsterdam: 00:58\, Apr 06\nChaturthi tithi: 08:30\, Apr 05 to 10:41\, Apr
+  Amsterdam: 01:06\, Apr 06\nChaturthi tithi: 08:30\, Apr 05 to 10:41\, Apr
   06 (Europe/Amsterdam)
 STATUS:CONFIRMED
-SEQUENCE:1
+SEQUENCE:2
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Jyeshtha, Krishna Chaturthi
-DTSTART;VALUE=DATE:20260506
-DTEND;VALUE=DATE:20260507
-DTSTAMP:20260929T091116Z
+DTSTART;VALUE=DATE:20260505
+DTEND;VALUE=DATE:20260506
+DTSTAMP:20260929T092048Z
 UID:20260505-jyeshtha-krishna-chaturthi-mohini123@github.com
 DESCRIPTION:Sankashti Chaturthi: Jyeshtha\, Krishna Chaturthi\nMoonrise in 
- Amsterdam: 01:49\, May 06\nChaturthi tithi: 01:55\, May 05 to 04:22\, May 
+ Amsterdam: 01:58\, May 06\nChaturthi tithi: 01:55\, May 05 to 04:22\, May 
  06 (Europe/Amsterdam)
 STATUS:CONFIRMED
-SEQUENCE:1
+SEQUENCE:2
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Jyeshtha, Krishna Chaturthi
-DTSTART;VALUE=DATE:20260604
-DTEND;VALUE=DATE:20260605
-DTSTAMP:20260929T091116Z
+DTSTART;VALUE=DATE:20260603
+DTEND;VALUE=DATE:20260604
+DTSTAMP:20260929T092048Z
 UID:20260603-jyeshtha-krishna-chaturthi-mohini123@github.com
 DESCRIPTION:Sankashti Chaturthi: Jyeshtha\, Krishna Chaturthi\nMoonrise in 
- Amsterdam: 00:58\, Jun 04\nChaturthi tithi: 17:52\, Jun 03 to 20:01\, Jun 
+ Amsterdam: 01:06\, Jun 04\nChaturthi tithi: 17:52\, Jun 03 to 20:01\, Jun 
  04 (Europe/Amsterdam)
 STATUS:CONFIRMED
-SEQUENCE:1
+SEQUENCE:2
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ashadha, Krishna Chaturthi
 DTSTART;VALUE=DATE:20260703
 DTEND;VALUE=DATE:20260704
-DTSTAMP:20260929T091116Z
+DTSTAMP:20260929T092048Z
 UID:20260703-ashadha-krishna-chaturthi-mohini123@github.com
 DESCRIPTION:Sankashti Chaturthi: Ashadha\, Krishna Chaturthi\nMoonrise in A
- msterdam: 23:57\, Jul 03\nChaturthi tithi: 07:51\, Jul 03 to 09:11\, Jul 0
+ msterdam: 00:03\, Jul 04\nChaturthi tithi: 07:51\, Jul 03 to 09:11\, Jul 0
  4 (Europe/Amsterdam)
 STATUS:CONFIRMED
 SEQUENCE:1
@@ -98,10 +98,10 @@ BEGIN:VEVENT
 SUMMARY:Shravana, Krishna Chaturthi
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260802
-DTSTAMP:20260929T091116Z
+DTSTAMP:20260929T092048Z
 UID:20260801-shravana-krishna-chaturthi-mohini123@github.com
 DESCRIPTION:Sankashti Chaturthi: Shravana\, Krishna Chaturthi\nMoonrise in 
- Amsterdam: 22:27\, Aug 01\nChaturthi tithi: 19:38\, Aug 01 to 19:46\, Aug 
+ Amsterdam: 22:33\, Aug 01\nChaturthi tithi: 19:38\, Aug 01 to 19:46\, Aug 
  02 (Europe/Amsterdam)
 STATUS:CONFIRMED
 SEQUENCE:1
@@ -111,10 +111,10 @@ BEGIN:VEVENT
 SUMMARY:Bhadrapada, Krishna Chaturthi
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
-DTSTAMP:20260929T091116Z
+DTSTAMP:20260929T092048Z
 UID:20260831-bhadrapada-krishna-chaturthi-mohini123@github.com
 DESCRIPTION:Sankashti Chaturthi: Bhadrapada\, Krishna Chaturthi\nMoonrise i
- n Amsterdam: 21:10\, Aug 31\nChaturthi tithi: 05:22\, Aug 31 to 04:12\, Se
+ n Amsterdam: 21:16\, Aug 31\nChaturthi tithi: 05:22\, Aug 31 to 04:12\, Se
  p 01 (Europe/Amsterdam)
 STATUS:CONFIRMED
 SEQUENCE:1
@@ -124,10 +124,10 @@ BEGIN:VEVENT
 SUMMARY:Ashwina, Krishna Chaturthi
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
-DTSTAMP:20260929T091116Z
+DTSTAMP:20260929T092048Z
 UID:20260929-ashwina-krishna-chaturthi-mohini123@github.com
 DESCRIPTION:Sankashti Chaturthi: Ashwina\, Krishna Chaturthi\nMoonrise in A
- msterdam: 19:52\, Sep 29\nChaturthi tithi: 13:41\, Sep 29 to 11:26\, Sep 3
+ msterdam: 19:59\, Sep 29\nChaturthi tithi: 13:41\, Sep 29 to 11:26\, Sep 3
  0 (Europe/Amsterdam)
 STATUS:CONFIRMED
 SEQUENCE:1
@@ -135,25 +135,25 @@ TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Kartika, Krishna Chaturthi
-DTSTART;VALUE=DATE:20261028
-DTEND;VALUE=DATE:20261029
-DTSTAMP:20260929T091116Z
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+DTSTAMP:20260929T092048Z
 UID:20261029-kartika-krishna-chaturthi-mohini123@github.com
 DESCRIPTION:Sankashti Chaturthi: Kartika\, Krishna Chaturthi\nMoonrise in A
- msterdam: 17:58\, Oct 28\nChaturthi tithi: 20:37\, Oct 28 to 17:41\, Oct 2
+ msterdam: 19:03\, Oct 29\nChaturthi tithi: 20:37\, Oct 28 to 17:41\, Oct 2
  9 (Europe/Amsterdam)
 STATUS:CONFIRMED
-SEQUENCE:1
+SEQUENCE:2
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Margashirsha, Krishna Chaturthi
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
-DTSTAMP:20260929T091116Z
+DTSTAMP:20260929T092048Z
 UID:20261127-margashirsha-krishna-chaturthi-mohini123@github.com
 DESCRIPTION:Sankashti Chaturthi: Margashirsha\, Krishna Chaturthi\nMoonrise
-  in Amsterdam: 19:13\, Nov 27\nChaturthi tithi: 05:19\, Nov 27 to 02:10\, 
+  in Amsterdam: 19:21\, Nov 27\nChaturthi tithi: 05:19\, Nov 27 to 02:10\, 
  Nov 28 (Europe/Amsterdam)
 STATUS:CONFIRMED
 SEQUENCE:1
@@ -163,10 +163,10 @@ BEGIN:VEVENT
 SUMMARY:Pausha, Krishna Chaturthi
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
-DTSTAMP:20260929T091116Z
+DTSTAMP:20260929T092048Z
 UID:20261226-pausha-krishna-chaturthi-mohini123@github.com
 DESCRIPTION:Sankashti Chaturthi: Pausha\, Krishna Chaturthi\nMoonrise in Am
- sterdam: 19:48\, Dec 26\nChaturthi tithi: 15:36\, Dec 26 to 12:44\, Dec 27
+ sterdam: 19:55\, Dec 26\nChaturthi tithi: 15:36\, Dec 26 to 12:44\, Dec 27
   (Europe/Amsterdam)
 STATUS:CONFIRMED
 SEQUENCE:1

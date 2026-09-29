@@ -26,6 +26,7 @@ LAT, LON = "52.3676", "4.9041"  # Amsterdam
 
 # Krishna paksha Chaturthi: Moon-Sun elongation between 216 and 228 degrees.
 TITHI_START, TITHI_END = 216.0, 228.0
+MARGIN = timedelta(minutes=2)
 
 
 def elongation(dt):
@@ -59,41 +60,63 @@ def crossing(target, near):
     raise ValueError(f"no crossing of {target} near {near}")
 
 
-def moonrise(day):
-    """Moonrise (UTC) on the given local calendar day in Amsterdam, or None."""
+def _observer(utc):
     obs = ephem.Observer()
     obs.lat, obs.lon, obs.elevation = LAT, LON, 0
-    start = datetime(day.year, day.month, day.day, tzinfo=TZ).astimezone(timezone.utc)
-    obs.date = ephem.Date(start.replace(tzinfo=None))
+    # Drikpanchang times sunrise and moonrise by the centre of the disc
+    # without refraction; this matches its published moonrise to a minute.
+    obs.pressure = 0
+    obs.date = ephem.Date(utc.replace(tzinfo=None))
+    return obs
+
+
+def _next_rising(body, utc):
+    rise = _observer(utc).next_rising(body, use_center=True)
+    return rise.datetime().replace(tzinfo=timezone.utc)
+
+
+def sunrise(day):
+    midnight = datetime(day.year, day.month, day.day, tzinfo=TZ).astimezone(timezone.utc)
+    return _next_rising(ephem.Sun(), midnight)
+
+
+def hindu_day(utc):
+    """The Hindu day runs from sunrise to sunrise, so small hours belong to the day before."""
+    day = utc.astimezone(TZ).date()
+    return day if utc >= sunrise(day) else day - timedelta(days=1)
+
+
+def moonrise(day):
+    """Moonrise (UTC) between sunrise on `day` and the next sunrise in Amsterdam, or None."""
     try:
-        rise = obs.next_rising(ephem.Moon()).datetime().replace(tzinfo=timezone.utc)
+        rise = _next_rising(ephem.Moon(), sunrise(day))
     except (ephem.AlwaysUpError, ephem.NeverUpError):
         return None
-    return rise if rise.astimezone(TZ).date() == day else None
+    return rise if rise < sunrise(day + timedelta(days=1)) else None
 
 
 def observance(hint):
     """Return (day, tithi_start, tithi_end, moonrise) for the Chaturthi near `hint`."""
     start = crossing(TITHI_START, hint)
     end = crossing(TITHI_END, start + timedelta(hours=24))
-    first, last = start.astimezone(TZ).date(), end.astimezone(TZ).date()
+    first, last = hindu_day(start), hindu_day(end)
     days = [first + timedelta(days=i) for i in range((last - first).days + 1)]
     candidates = []
     for d in days:
         rise = moonrise(d)
-        if rise and start <= rise < end:
+        # A moonrise within a couple of minutes of the tithi starting is too
+        # close to call (e.g. 24 Apr 2027 00:51), so it doesn't count.
+        if rise and start + MARGIN <= rise < end:
             candidates.append((d, rise))
     if candidates:
         # If Chaturthi is present at moonrise on two days, the first day is taken.
         day, rise = candidates[0]
     else:
-        # Chaturthi falls entirely between two moonrises. Take the first day:
-        # Chaturthi begins after that evening's moonrise, so the Moon is up
-        # during Chaturthi that night, while on the next day the tithi is over
-        # before the Moon rises. Flagged for a manual check.
-        day = first
-        rise = moonrise(day)
-        print(f"WARNING: no moonrise inside Chaturthi {start}..{end}, using {day}", file=sys.stderr)
+        # Chaturthi falls entirely between two moonrises. Drikpanchang takes
+        # the second day in this case (e.g. 27 Nov 2026 for Lancaster, CA).
+        day = last
+        rise = moonrise(day) or moonrise(day + timedelta(days=1))
+        print(f"NOTE: no moonrise inside Chaturthi {start}..{end}, using {day}", file=sys.stderr)
     return day, start, end, rise
 
 
@@ -131,7 +154,8 @@ def convert(path, stamp):
                 )
             day, start, end, rise = observance(hint_dt)
             seq = int(event.get("SEQUENCE", "0"))
-            if not event.get("DTSTART", "").startswith("VALUE=DATE"):
+            # Bump SEQUENCE whenever the day changes so subscribed calendars update.
+            if hint != "VALUE=DATE:" + day.strftime("%Y%m%d"):
                 seq += 1
             desc = (
                 f"Sankashti Chaturthi: {event['SUMMARY']}\\n"
