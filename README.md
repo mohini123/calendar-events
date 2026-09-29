@@ -52,7 +52,7 @@ You can subscribe to the calendar using your favorite calendar application. Here
 
 ## Sankashti Chaturthi dates
 
-Each Sankashti Chaturthi is an all-day event on the day it is observed in the Netherlands: the day when Krishna paksha Chaturthi is running at moonrise in Amsterdam. The event description gives the moonrise time and the Chaturthi tithi window in Europe/Amsterdam time.
+Each Sankashti Chaturthi is an all-day event on the day it is observed in the Netherlands: the day when Krishna paksha Chaturthi is running at moonrise in Amsterdam. As in the Hindu calendar, a day runs from sunrise to sunrise, so a moonrise shortly after midnight belongs to the date before. If Chaturthi is not running at either moonrise, the later day is used, which is what drikpanchang.com does. The event description gives the moonrise time and the Chaturthi tithi window in Europe/Amsterdam time.
 
 To recompute the days (for example after adding a new year's file):
 
