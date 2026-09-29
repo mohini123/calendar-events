@@ -50,6 +50,17 @@ You can subscribe to the calendar using your favorite calendar application. Here
 
 - The calendar events will now sync automatically with your chosen app.
 
+## Sankashti Chaturthi dates
+
+Each Sankashti Chaturthi is an all-day event on the day it is observed in the Netherlands: the day when Krishna paksha Chaturthi is running at moonrise in Amsterdam. The event description gives the moonrise time and the Chaturthi tithi window in Europe/Amsterdam time.
+
+To recompute the days (for example after adding a new year's file):
+
+```sh
+pip install ephem
+python3 scripts/observance_days.py Sankashti_Chaturthi_*.ics
+```
+
 ## Contributing
 
 Pull requests and suggestions are welcome!
