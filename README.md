@@ -17,16 +17,24 @@ A simple web application for publishing and subscribing to calendar events. With
 
 You can subscribe to the calendar using your favorite calendar application. Here’s how:
 
-### 1. Find the Calendar Subscription Link
+### 1. Copy the Calendar URL
 
-- Look for a link or button labeled **Subscribe**, **iCal**, or **Export .ics** on the website.  
-  (If you’re the developer, ensure the calendar feed is available at a public URL, e.g., `https://mohini123.github.io/calendar-events/Sankashti_Chaturthi_2025.ics`.)
+Subscribe to this one link. It holds every year's Sankashti Chaturthi dates and updates automatically when new years are added:
 
-### 2. Copy the Calendar URL
+```
+https://mohini123.github.io/calendar-events/sankashti-chaturthi.ics
+```
 
-- Right-click the subscription link and choose **Copy link address**.
+On a phone, you can also tap [webcal://mohini123.github.io/calendar-events/sankashti-chaturthi.ics](webcal://mohini123.github.io/calendar-events/sankashti-chaturthi.ics) to open the subscribe prompt directly.
 
-### 3. Add to Your Calendar App
+The individual yearly files (e.g. `Sankashti_Chaturthi_2025.ics`) are published next to it for one-off imports.
+
+### 2. Add to Your Calendar App
+
+#### iPhone / iPad
+
+1. Open **Settings > Calendar > Accounts > Add Account > Other**.
+2. Tap **Add Subscribed Calendar**, paste the URL above, and tap **Next**, then **Save**.
 
 #### Google Calendar
 
@@ -46,7 +54,7 @@ You can subscribe to the calendar using your favorite calendar application. Here
 2. Under the **Internet Calendars** tab, click **New**.
 3. Paste the calendar URL and click **Add**.
 
-### 4. Done!
+### 3. Done!
 
 - The calendar events will now sync automatically with your chosen app.
 
